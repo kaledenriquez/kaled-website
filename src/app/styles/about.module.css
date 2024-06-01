@@ -1,0 +1,20 @@
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    font-size: 3rem;
+
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    color: aqua;
+    transition: color 0.3s ease; 
+}
+
+.icon:hover{
+    color: var(--quinary-color);
+}

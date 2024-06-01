@@ -1,0 +1,27 @@
+.standardButton{
+display: flex;
+font-size: 0.6rem;
+align-items: center;
+background-color: var(--quinary-color);
+color: var(--octonary-color);
+justify-content: space-around;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+gap: 0.6rem;
+border-radius: 3rem;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+transition: background-color 0.3s ease;
+}
+
+.standardButton:hover{
+    background-color: var(--quaternary-color);
+
+
+}
+
+.standardButton .icon{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    }
