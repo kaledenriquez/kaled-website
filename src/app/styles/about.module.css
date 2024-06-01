@@ -18,3 +18,24 @@
 .icon:hover{
     color: var(--quinary-color);
 }
+
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5rem;
+}
+
+.aboutHeader{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.underline{
+    width: 100%;
+    height: 0.5rem;
+    background-image: linear-gradient(to right, var(--quinary-color), var(--quaternary-color));
+}
