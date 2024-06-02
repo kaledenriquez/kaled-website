@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 5rem;
+    margin: 5rem;
 }
 
 .projectsHeader{
@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 500px){
     .projectsSection{
-        padding: 2rem;
+        margin: 2rem;
     }
 
     .card{

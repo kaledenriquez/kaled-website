@@ -39,3 +39,9 @@
     height: 0.5rem;
     background-image: linear-gradient(to right, var(--quinary-color), var(--quaternary-color));
 }
+
+@media screen and (max-width: 500px){
+    .aboutSection{
+        margin: 2rem;
+    }
+}
