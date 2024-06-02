@@ -61,9 +61,10 @@ export default function projects() {
                         <p>
                         Utilization of Next.js and React for the development of the user interface, with
                         implementation of Node.js and Express. App hosted at Vercel, and database at Railway.
-                        Integration of a game developed in Unity allowing students to answer quizzes through interactive games, and enables teachers
-                        to create and customize their own quizzes.
                         </p>
+
+                        <p>Integration of a game developed in Unity allowing students to answer quizzes through interactive games, and enables teachers
+                        to create and customize their own quizzes.</p>
 
                         <Link className={styles.cardFooter} href="https://github.com/void-david/desarolho_web" target="_blank">
                         <PiGithubLogoFill className={styles.icon}/> 

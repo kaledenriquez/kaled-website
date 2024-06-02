@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 5rem;
+    padding: 5rem;
 }
 
 .projectsHeader{
@@ -21,8 +21,8 @@
 
 .projectsContent{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -74,3 +74,13 @@
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
+@media screen and (max-width: 500px){
+    .projectsSection{
+        padding: 2rem;
+    }
+
+    .card{
+        width: 100%;
+    }
+    
+}
