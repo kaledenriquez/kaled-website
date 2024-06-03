@@ -7,9 +7,10 @@ body{
  }
  
  html{
-   font-size: 18px;
+  font-size: 18px;
  }
  
+
  :root{
   --header-height: 10rem;
   --primary-color: #0f1127;

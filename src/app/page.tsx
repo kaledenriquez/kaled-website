@@ -23,8 +23,8 @@ export default function Home() {
         Hi, I'm
         <h1>Kaled Enríquez</h1>
         <p>
-        I'm a Computer Science and Technology student at Tecnológico de Monterrey,
-         passionate about software development, web development, and network management.
+        {`I'm a Computer Science and Technology student at Tecnológico de Monterrey,
+         passionate about software development, web development, and network management.`}
         </p>
       </div>
 
