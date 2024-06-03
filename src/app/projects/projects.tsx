@@ -64,8 +64,8 @@ export default function projects() {
                         </p>
 
                         <p>
-                        {`Integration of a game developed in Unity allowing students to answer quizzes through interactive games, and enables teachers
-                        to create and customize their own quizzes.`}
+                        Integration of a game developed in Unity allowing students to answer quizzes through interactive games, and enables teachers
+                        to create and customize their own quizzes.
                         </p>
 
                         <Link className={styles.cardFooter} href="https://github.com/void-david/desarolho_web" target="_blank">

@@ -25,13 +25,13 @@ export default function About() {
         </div>
         <div className={styles.aboutContent}>
             <p>
-            {`I'm currently studying computer science at Tecnológico de Monterrey,
+            I'm currently studying computer science at Tecnológico de Monterrey,
                 but I'm also a person who loves to learn by himself and keep trying new things.
                 I'm always looking for new challenges and opportunities to hone my skills and
                 bring the most value I can to the table.
 
                 I am open to freelance work and internship offers, so
-                feel free to contact me if you have any project in mind.`}
+                feel free to contact me if you have any project in mind.
             </p>
         </div>
     </div>
