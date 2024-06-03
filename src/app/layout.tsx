@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/src/app/components/Navbar";
 import About from "@/src/app/about/about";
 import Projects from "@/src/app/projects/projects";
+import Skills from "@/src/app/skills/skills";
 
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({ 
@@ -28,6 +29,7 @@ export default function RootLayout({
         {children}
         <About></About>
         <Projects></Projects>
+        <Skills></Skills>
         </body>
     </html>
   );

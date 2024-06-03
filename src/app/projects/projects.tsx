@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import portfolioImage from "@/public/personalPortfolioImage.png";
 import learningLimboImage from "@/public/learningLimboImage.png";
+import dropBydrop from "@/public/dropBydrop.jpg";
 import {PiGithubLogoFill, PiBrowsers } from "react-icons/pi";
 
 export default function projects() {
@@ -43,12 +44,13 @@ export default function projects() {
                     </div>
                 </div>
 
+
                 <div className={styles.card}>
                     <div className={styles.cardHeader}>
                         <h2>Learning Limbo</h2>
                         <Image
                         src={learningLimboImage}
-                        alt="Kaled Enríquez"
+                        alt="Learning Limbo"
                         style={{
                             width: '100%',
                             height: 'auto',
@@ -80,6 +82,35 @@ export default function projects() {
 
                     </div>
                 </div>
+
+
+                <div className={styles.card}>
+                    <div className={styles.cardHeader}>
+                        <h2>DropByDrop Water Consumption System</h2>
+                        <Image
+                        src={dropBydrop}
+                        alt="Kaled Enríquez"
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                        }}
+                        priority={true}
+                        placeholder="blur"
+                        />
+                    </div>
+                    <div className={styles.cardContent}>
+                        <p>
+                        An application designed to monitor and simulate a water 
+                        consumption system, employing Unity, Arduino, MySQL, and Flask technologies. 
+                        </p>
+
+                        <Link className={styles.cardFooter} href="https://github.com/void-david/desarolho_web" target="_blank">
+                        <PiGithubLogoFill className={styles.icon}/> 
+                            <h3>Check it out on Github</h3>
+                        </Link>
+                    </div>
+                </div>
+
 
             </div>
         </div>

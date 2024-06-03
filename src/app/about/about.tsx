@@ -33,6 +33,8 @@ export default function About() {
                 I am open to freelance work and internship offers, so
                 feel free to contact me if you have any project in mind.
             </p>
+            
+            <p>I am proficient in native Spanish and have attained a C1 Advanced level of proficiency in English.</p>
         </div>
     </div>
 </>
