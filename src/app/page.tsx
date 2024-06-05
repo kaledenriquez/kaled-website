@@ -4,7 +4,7 @@ import Kaled from "@/public/Kaled.jpg";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main id="home" className={styles.main}>
 
       <div className={styles.imageContainer}>
       <Image
