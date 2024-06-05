@@ -13,7 +13,7 @@ body{
  
 
  :root{
-  --header-height: 10rem;
+  --header-height: 6rem;
   --primary-color: #0f1127;
   --secondary-color: #29082f;
   --tertiary-color:#42053a;
