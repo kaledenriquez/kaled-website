@@ -104,7 +104,7 @@ export default function projects() {
                         consumption system, employing Unity, Arduino, MySQL, and Flask technologies. 
                         </p>
 
-                        <Link className={styles.cardFooter} href="https://github.com/void-david/desarolho_web" target="_blank">
+                        <Link className={styles.cardFooter} href="https://github.com/kaledenriquez/DropByDrop-System" target="_blank">
                         <PiGithubLogoFill className={styles.icon}/> 
                             <h3>Check it out on Github</h3>
                         </Link>
