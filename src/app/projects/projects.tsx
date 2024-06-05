@@ -9,7 +9,7 @@ import {PiGithubLogoFill, PiBrowsers } from "react-icons/pi";
 export default function projects() {
   return (
 <>
-    <div className={styles.projectsSection}>
+    <div id="projects" className={styles.projectsSection}>
             <div className={styles.projectsHeader}> 
                 <h1>Major Projects</h1>
                 <div className={styles.underline}></div>
