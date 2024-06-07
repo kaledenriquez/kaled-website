@@ -13,19 +13,31 @@ export default function Skills(){
                     <h1>Python</h1>
                 </div>
                 <div className={styles.smallCard}>
-                    <h1>Python</h1>
+                    <h1>Typescript</h1>
                 </div>
                 <div className={styles.smallCard}>
-                    <h1>Python</h1>
+                    <h1>HTML</h1>
                 </div>
                 <div className={styles.smallCard}>
-                    <h1>Python</h1>
+                    <h1>CSS</h1>
                 </div>
                 <div className={styles.smallCard}>
-                    <h1>Python</h1>
+                    <h1>C++</h1>
                 </div>
                 <div className={styles.smallCard}>
-                    <h1>Python</h1>
+                    <h1>React</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>Next JS</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>SQL</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>NodeJS & Express</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>Git</h1>
                 </div>
             </div>
         </div>
