@@ -17,7 +17,7 @@ export default function Navbar() {
                 }
             });
         }, {
-            threshold: 0.1, 
+            threshold: 0.6, 
         });
 
         sections.forEach(section => {
