@@ -34,7 +34,7 @@
     background-color: var(--secondary-color);
     border-radius: 1rem;
     padding: 1rem;
-    min-width: 300px;
+
     max-width: 450px;
     box-shadow: 0 0 3px var(--quinary-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -100,9 +100,4 @@
         justify-content: center;
         margin: 2rem;
     }
-
-    .card{
-        width: 100%;
-    }
-    
 }
