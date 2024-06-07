@@ -39,7 +39,6 @@ align-items: center;
   font-size: 2rem;
 }
 
-/* Standard breakpoints for font sizes */
 @media screen and (max-width: 1200px) {
   .textContainer {
     font-size: 2.8rem;

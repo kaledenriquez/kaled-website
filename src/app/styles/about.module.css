@@ -37,6 +37,7 @@
 .aboutContent{
     display: flex;
     justify-content: flex-start;
+    text-align: justify;
     flex-wrap: wrap;
     font-size: 1.3rem;
 }
@@ -47,8 +48,32 @@
     background-image: linear-gradient(to right, var(--quinary-color), var(--quaternary-color));
 }
 
+@media screen and (max-width: 1200px) {
+    .aboutContent {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .aboutContent {
+        font-size: 1rem;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .aboutContent {
+        font-size: 0.9rem;
+      }
+  }
+  
+
 @media screen and (max-width: 500px){
     .aboutSection{
         margin: 2rem;
     }
+    .aboutContent {
+        font-size: 0.8rem;
+      }
 }
+
+
