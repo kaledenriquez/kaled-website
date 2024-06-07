@@ -9,7 +9,24 @@ export default function Skills(){
                 <div className={styles.underline}></div>
             </div>
             <div className={styles.skillsContent}>
-
+                <div className={styles.smallCard}>
+                    <h1>Python</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>Python</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>Python</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>Python</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>Python</h1>
+                </div>
+                <div className={styles.smallCard}>
+                    <h1>Python</h1>
+                </div>
             </div>
         </div>
 </>
