@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import portfolioImage from "@/public/personalPortfolioImage.png";
 import learningLimboImage from "@/public/learningLimboImage.png";
-import dropBydrop from "@/public/dropBydrop.jpg";
+import dropBydrop from "@/public/dropBydrop.png";
 import {PiGithubLogoFill, PiBrowsers } from "react-icons/pi";
 
 export default function projects() {
@@ -38,7 +38,6 @@ export default function projects() {
 
                         <Link className={styles.cardFooter} href="https://github.com/kaledenriquez/kaled-website" target="_blank">
                             <PiGithubLogoFill className={styles.icon}/> 
-                            <h3>Check it out on Github</h3>
                         </Link>
 
                     </div>
@@ -61,8 +60,7 @@ export default function projects() {
                     </div>
                     <div className={styles.cardContent}>
                         <p>
-                        Utilization of Next.js and React for the development of the user interface, with
-                        implementation of Node.js and Express. App hosted at Vercel, and database at Railway.
+                            Dashboard for students and teachers made with Next js, React and SQLite.
                         </p>
 
                         <p>
@@ -70,15 +68,17 @@ export default function projects() {
                         to create and customize their own quizzes.
                         </p>
 
-                        <Link className={styles.cardFooter} href="https://github.com/void-david/desarolho_web" target="_blank">
-                        <PiGithubLogoFill className={styles.icon}/> 
-                            <h3>Check it out on Github</h3>
-                        </Link>
+                        <div className={styles.cardFooter} >
+                            <Link href="https://github.com/void-david/desarolho_web" target="_blank">
+                                <PiGithubLogoFill className={styles.icon}/> 
+                            </Link>
 
-                        <Link className={styles.cardFooter} href="https://learninglimboquizz.vercel.app/" target="_blank">
-                        <PiBrowsers className={styles.icon}/> 
-                            <h3>Check it out live</h3>
-                        </Link>
+                            <Link href="https://learninglimboquizz.vercel.app/" target="_blank">
+                                <PiBrowsers className={styles.icon}/> 
+                            </Link>
+                        </div>
+
+
 
                     </div>
                 </div>
@@ -86,10 +86,10 @@ export default function projects() {
 
                 <div className={styles.card}>
                     <div className={styles.cardHeader}>
-                        <h2>DropByDrop Water Consumption System</h2>
+                        <h2>DropByDrop Water</h2>
                         <Image
                         src={dropBydrop}
-                        alt="Kaled Enríquez"
+                        alt="DropByDrop"
                         style={{
                             width: '100%',
                             height: 'auto',
@@ -106,7 +106,6 @@ export default function projects() {
 
                         <Link className={styles.cardFooter} href="https://github.com/kaledenriquez/DropByDrop-System" target="_blank">
                         <PiGithubLogoFill className={styles.icon}/> 
-                            <h3>Check it out on Github</h3>
                         </Link>
                     </div>
                 </div>

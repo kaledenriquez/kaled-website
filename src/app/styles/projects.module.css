@@ -31,12 +31,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--quaternary-color);
+    background-color: var(--secondary-color);
     border-radius: 1rem;
     padding: 1rem;
     width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
+}
+
+.cardHeader h2{
+color: var(--quinary-color);
 }
 
 .cardContent{
@@ -46,11 +50,12 @@
     justify-content: space-between;
     align-items: center;
     text-align: justify;
-
+    font-size: 0.8rem;
 }
 
 .cardFooter{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 1rem;
     text-decoration: none;
@@ -69,10 +74,11 @@
 
 .icon{
     display: flex;
+    font-size: 1.5rem;
     align-items: center;
     color: aqua;
     transition: color 0.3s ease; 
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 500px){
