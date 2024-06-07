@@ -35,13 +35,25 @@
     border-radius: 1rem;
     padding: 1rem;
     width: 300px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
+    box-shadow: 0 0 3px var(--quinary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.cardHeader h2{
-color: var(--quinary-color);
+.cardHeader{
+    text-align: center;
+    font-weight: 700;
+    justify-content: center;
 }
+
+.cardHeader h2::after, .cardHeader::after{
+    content: '';
+    width: 100%;
+    height: 0.2rem;
+    background-image: linear-gradient(to right, var(--quinary-color), var(--quaternary-color));
+    display: block;
+    margin-top: 0.5rem;
+}
+
 
 .cardContent{
     display: flex;
@@ -64,10 +76,6 @@ color: var(--quinary-color);
 }
 
 
-.cardFooter :hover{
-    color: var(--octonary-color);
-}
-
 .cardFooter h3{
     color: aqua;
 }
@@ -79,6 +87,10 @@ color: var(--quinary-color);
     color: aqua;
     transition: color 0.3s ease; 
     border-radius: 50%;
+}
+
+.icon:hover{
+    transform: translateY(-0.08rem);
 }
 
 @media screen and (max-width: 500px){

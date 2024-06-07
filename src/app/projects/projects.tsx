@@ -86,7 +86,7 @@ export default function projects() {
 
                 <div className={styles.card}>
                     <div className={styles.cardHeader}>
-                        <h2>DropByDrop Water</h2>
+                        <h2>DropByDrop</h2>
                         <Image
                         src={dropBydrop}
                         alt="DropByDrop"
