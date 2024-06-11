@@ -5,6 +5,7 @@ import Navbar from "@/src/app/components/Navbar";
 import About from "@/src/app/about/about";
 import Projects from "@/src/app/projects/projects";
 import Skills from "@/src/app/skills/skills";
+import Contact from "@/src/app/contact/contact";
 
 const inter = Inter({ subsets: ["latin"] });
 const arimo = Arimo({
@@ -31,6 +32,7 @@ export default function RootLayout({
         <About></About>
         <Projects></Projects>
         <Skills></Skills>
+        <Contact></Contact>
         </body>
     </html>
   );
