@@ -6,6 +6,7 @@ import learningLimboImage from "@/public/learningLimboImage.png";
 import dropBydrop from "@/public/dropBydrop.png";
 import {PiGithubLogoFill, PiBrowsers } from "react-icons/pi";
 
+//commit de prueba
 export default function projects() {
   return (
 <>

@@ -34,8 +34,7 @@
     background-color: var(--secondary-color);
     border-radius: 1rem;
     padding: 1rem;
-
-    max-width: 450px;
+    max-width: 380px;
     box-shadow: 0 0 3px var(--quinary-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
