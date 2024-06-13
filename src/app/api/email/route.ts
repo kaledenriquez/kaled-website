@@ -36,9 +36,9 @@ export async function POST(req: Request) {
     );
 
     if (success) {
-        return new Response(JSON.stringify({ message: 'Thank you for reaching out! I´ll get back to you within the next few hours' }), { status: 200 });
+        return new Response(JSON.stringify({ message: 'Thanks for reaching out :)' }), { status: 200 });
     }
 
-    return new Response(JSON.stringify({ message: 'JIJIJIJA.' }), { status: 500 });
+    return new Response(JSON.stringify({ message: 'Could not send it. Please try again.' }), { status: 500 });
 
 }
