@@ -1,0 +1,84 @@
+.contactSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.contactHeader{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.underline{
+    width: 100%;
+    height: 0.5rem;
+    background-image: linear-gradient(to right, var(--quinary-color), var(--quaternary-color));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 200px;
+    box-shadow: 0 0 3px var(--octonary-color);
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+}
+
+.formControl{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.formControl input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid var(--quinary-color);
+    background-color: var(--primary-color);
+    color: var(--octonary-color);
+}
+
+.formControl textarea{
+    margin: 2rem 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: var(--primary-color);
+    color: var(--octonary-color);
+    border: none;
+    border-bottom: 2px solid var(--quinary-color);
+    resize: none;
+    font: inherit;
+}
+
+.submitButton{
+    display: flex;  
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: var(--quinary-color);
+    color: var(--octonary-color);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    gap: 0.5rem;
+}
+
+.submitButton:hover{
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    transition: background-color 0.3s, color 0.3s; 
+}
