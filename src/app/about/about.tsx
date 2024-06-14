@@ -6,7 +6,7 @@ import { PiLinkedinLogoFill, PiGithubLogoFill, PiDownloadSimple } from "react-ic
 export default function About() {
   return (
 <>
-    <div id="about" className={styles.socials}>
+    <div className={styles.socials}>
         <Link className={styles.icon} href="https://www.linkedin.com/in/kaled-enriquez" target="_blank">
             <PiLinkedinLogoFill />
         </Link>
@@ -18,7 +18,7 @@ export default function About() {
         </Link>
     </div>
 
-    <div className={styles.aboutSection}>
+    <div  id="about"  className={styles.aboutSection}>
         <div className={styles.aboutHeader}> 
             <h1>About Me</h1>
             <div className={styles.underline}></div>
