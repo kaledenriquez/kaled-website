@@ -13,7 +13,7 @@ export default function About() {
         <Link className={styles.icon} href="https://github.com/kaledenriquez" target="_blank">
             <PiGithubLogoFill />
         </Link>
-        <Link style={{textDecoration: 'none'}} href="/KaledEnríquez_Resume.pdf" target="_blank">
+        <Link style={{textDecoration: 'none'}} href="/Kaled_Enriquez_Resume.pdf" target="_blank">
             <Button title="Download CV" icon={<PiDownloadSimple />}/>
         </Link>
     </div>

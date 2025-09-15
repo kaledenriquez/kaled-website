@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     margin: 5rem;
 }
 
@@ -11,6 +10,7 @@
     justify-content: flex-start;
     flex-direction: column;
     font-weight: 700;
+    max-width: fit-content;
 }
 
 .underline{
@@ -27,18 +27,36 @@
     margin-top: 2rem;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--secondary-color);
-    border-radius: 1rem;
-    padding: 1rem;
-
-    max-width: 450px;
-    box-shadow: 0 0 3px var(--quinary-color);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.card {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  display: flex;
+  flex-direction: row; /* default: side by side */
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 0 3px var(--octonary-color);
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  background-image: linear-gradient(to right, var(--primary-color), var(--primary-color));
+  transition: all 300ms;
 }
+
+.dark .card {
+  border-color: #374151; /* dark:border-gray-700 */
+  background-image: linear-gradient(to right, rgb(30 58 138 / 0.2), rgb(127 29 29 / 0.2)); /* dark:from-blue-900/20 dark:to-red-900/20 */
+}
+
+.group:hover .card {
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1); /* group-hover:shadow-lg */
+  transform: translateY(-0.25rem); /* group-hover:-translate-y-1 */
+  border-color: #60a5fa; /* group-hover:border-blue-400 */
+  background-image: linear-gradient(to right, #0f2747, #350707); /* group-hover:bg-gradient-to-r group-hover:from-blue-100 group-hover:to-red-100 */
+}
+
+.dark .group:hover .card {
+  border-color: #3b82f6; /* dark:group-hover:border-blue-500 */
+  background-image: linear-gradient(to right, rgb(30 64 175 / 0.3), rgb(153 27 27 / 0.3)); /* dark:group-hover:from-blue-800/30 dark:group-hover:to-red-800/30 */
+}
+
 
 .cardHeader{
     font-size: 1.3rem;
@@ -61,43 +79,48 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    justify-content: space-between;
+    padding: 2rem;
+    justify-content: center;
     align-items: center;
     text-align: justify;
-    font-size: 0.8rem;
-}
-
-.cardFooter{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-    text-decoration: none;
-    align-items: center;
-    gap: 1rem;
-}
-
-
-.cardFooter h3{
-    color: aqua;
-}
-
-.icon{
-    display: flex;
     font-size: 1.5rem;
-    align-items: center;
-    color: aqua;
-    transition: color 0.3s ease; 
-    border-radius: 50%;
+    color: var(--octonary-color);
 }
 
-.icon:hover{
-    transform: translateY(-0.08rem);
+@media screen and (max-width: 500px) {
+  .projectsSection {
+    justify-content: center;
+    margin: 2rem;
+  }
+  .projectsContent {
+    justify-content: center;
+    margin: 2rem;
+  }
+
+  .cardContent p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
 }
 
-@media screen and (max-width: 500px){
-    .projectsSection{
-        justify-content: center;
-        margin: 2rem;
-    }
+@media (max-width: 1024px) {
+  .card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cardHeader {
+    margin-bottom: 1rem;
+  }
+
+  .cardContent {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .cardContent p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
+
